@@ -1,8 +1,6 @@
-# CC-SRC Distribution How-To Guide
-
 ## Overview
 
-This guide details how to distribute the compiled `cc-src` application (Claude Code v2.1.87) to other users. Two distribution options are provided:
+Two distribution options are provided:
 
 1. **Option A: Shell Wrapper** — Requires `bun` runtime on the target machine (~24MB distribution)
 2. **Option C: Native Binary** — Zero dependencies, standalone executable (~117MB)
@@ -16,7 +14,7 @@ This guide details how to distribute the compiled `cc-src` application (Claude C
 #### Option A: Shell Wrapper Distribution (Recommended for users with `bun`)
 
 ```
-cc-bin-v2.1.87/
+cc-bin/
 ├── cli.js                    # Bundled application (23.67 MB)
 ├── vendor/                   # Native binaries (ripgrep)
 │   └── ripgrep/
@@ -32,7 +30,7 @@ cc-bin-v2.1.87/
 #### Option C: Native Binary Distribution (Zero dependencies)
 
 ```
-cc-bin-v2.1.87/
+cc-bin/
 ├── cc-bin-linux-x64          # Standalone native executable (117 MB)
 └── vendor/                   # Native binaries (ripgrep)
     └── ripgrep/
