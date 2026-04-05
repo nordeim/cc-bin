@@ -1,0 +1,11 @@
+{
+  "name": "cc-bin",
+  "version": "2.1.87",
+  "description": "Agentic CLI terminal interface for autonomous software engineering",
+  "bin": {
+    "cc": "./bin/cc-bin"
+  },
+  "engines": {
+    "bun": ">=1.3.11"
+  }
+}

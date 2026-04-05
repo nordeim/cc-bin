@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+#
+# cc-bin — Agentic CLI terminal interface for autonomous software engineering
+# Wrapper script for cc-src (Claude Code v2.1.87)
+#
+# Usage: cc-bin [options] [command] [prompt]
+#
+set -euo pipefail
+
+# Resolve script directory (follows symlinks)
+SCRIPT_DIR="$(cd "$(dirname "$(readlink -f "${BASH_SOURCE[0]}")")" && pwd)"
+CLI_PATH="$SCRIPT_DIR/../cli.js"
+
+# Check if bun is available
+if ! command -v bun &> /dev/null; then
+  echo "Error: 'bun' runtime is required but not found in PATH."
+  echo "Install: https://bun.sh/docs/installation"
+  exit 1
+fi
+
+# Check if CLI bundle exists
+if [ ! -f "$CLI_PATH" ]; then
+  echo "Error: cli.js not found at $CLI_PATH"
+  echo "Expected path: $(dirname "$SCRIPT_DIR")/cli.js"
+  exit 1
+fi
+
+# Execute with inherited stdio and environment
+exec bun "$CLI_PATH" "$@"
