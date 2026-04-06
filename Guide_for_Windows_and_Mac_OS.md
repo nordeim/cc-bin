@@ -1,10 +1,5 @@
 # Guide for Running cc-src on Windows and macOS
 
-**Date**: 2026-04-06
-**Project**: `cc-src` (`@anthropic-ai/claude-code` v2.1.87)
-
----
-
 ## Executive Summary
 
 `dist/cli.js` is pure JavaScript bundled for the Bun runtime — it contains no platform-specific compilation. However, **native dependencies** in `node_modules/` are platform-bound. You cannot copy `node_modules/` from Linux to macOS or Windows. Each platform requires a fresh `bun install` and `bun build`.
