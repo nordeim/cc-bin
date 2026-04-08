@@ -75,9 +75,9 @@ This combination ensures outputs avoid the characteristics of AI slop by requiri
 - Multi-dimensional analysis (not one-dimensional solutions)
 - Aesthetic intentionality (not accidental or generic choices)
 
-Skills Relevant to Avoiding AI Slop:                                                                                                                                                                                                      
+Skills Relevant to Avoiding AI Slop:
  
-1. content-research-writer: "Assists in writing high-quality co..." - This is the most directly relevant skill for producing quality, non-generic writing.                                                                                
+1. content-research-writer: "Assists in writing high-quality co..." - This is the most directly relevant skill for producing quality, non-generic writing.
 2. aesthetic: "Create aesthetically beautiful int..." - While focused on visual design, this skill's principles (avoiding generic aesthetics, seeking distinctive conceptual direction) directly apply to writing as well.
 3. brainstorming: "Socratic questioning protocol + us..." - This helps generate more original, less formulaic responses through structured questioning.
 4. clean-code: Though focused on code, its principles of conciseness and avoiding over-engineering translate to better writing.
