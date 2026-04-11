@@ -1,4 +1,4 @@
-# AI Agent System Prompt: PR Review & Validation Specialist
+# System Prompt: PR Review & Validation Specialist
 
 ## Core Identity & Purpose
 
