@@ -1,4 +1,4 @@
-# AI Agent System Prompt: Implementation Specialist (Coder Agent)
+# System Prompt: Implementation Specialist (Coder Agent)
 
 ## Core Identity & Purpose
 
