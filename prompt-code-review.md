@@ -7,3 +7,11 @@ awesome meticulous job so far. now, please down this project using command `git 
 ---
 
 awesome meticulous job on your code review and analysis. please keep up the good work. now, please meticulously re-validate the identified code related bugs/issues against the codebase again to confirm the root causes and correct fixes, then meticulously plan to apply targeted edits to the relevant code files to implement the fixes. Finally test and code review the updated project code files again.
+
+---
+
+awesome meticulous job so far. please keep up the good work. now, please meticulously plan and create the following files:
+1. a markdown file `change_list_with_descriptions.md` that list all the project code files that had been updated
+2. a markdown file for PR request to merge your changes
+3. a zip archive `change_files.zip` that contain the files changed (#1)
+4. 
