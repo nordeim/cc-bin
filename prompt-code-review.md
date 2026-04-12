@@ -11,7 +11,6 @@ awesome meticulous job on your code review and analysis. please keep up the good
 ---
 
 awesome meticulous job so far. please keep up the good work. now, please meticulously plan and create the following files:
-1. a markdown file `change_list_with_descriptions.md` that list all the project code files that had been updated
+1. a markdown file `change_list_with_descriptions.md` that list all the project code files (with file path) that had been updated
 2. a markdown file for PR request to merge your changes
-3. a zip archive `change_files.zip` that contain the files changed (#1)
-4. 
+3. a zip archive `change_files.zip` that contain the files changed with file-path preserved in the archive (#1)
